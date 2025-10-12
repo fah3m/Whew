@@ -32,6 +32,7 @@ const Search = ({ func }) => {
 
   const getWeather = async () => {
     if (!location) return;
+    // if(location) ->
     setLoading(true);
     try {
       const res = await fetch(
@@ -128,7 +129,7 @@ const Search = ({ func }) => {
 const Player = ({ data, func }) => {
   const [selectedGenre, setSelectedGenre] = useState(null);
   const [playlist, setPlaylist] = useState([]); // shuffled list of indexes
-  const [currentPos, setCurrentPos] = useState(0);
+  const [currentPos, setCurrentPos] = useState(0); //position in the array
   const audioRef = useRef(null);
 
   const songs = useQuery(

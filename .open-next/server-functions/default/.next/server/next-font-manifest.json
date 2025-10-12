@@ -1,0 +1,23 @@
+{
+  "app": {
+    "[project]/app/_not-found/page": [
+      "static/media/Jaro-s.p.dcdfa8d9.ttf",
+      "static/media/SpaceGrotesk-s.p.5364be1a.ttf"
+    ],
+    "[project]/app/page": [
+      "static/media/Jaro-s.p.dcdfa8d9.ttf",
+      "static/media/SpaceGrotesk-s.p.5364be1a.ttf"
+    ],
+    "[project]/app/play/page": [
+      "static/media/Jaro-s.p.dcdfa8d9.ttf",
+      "static/media/SpaceGrotesk-s.p.5364be1a.ttf"
+    ],
+    "[project]/app/upload/page": [
+      "static/media/Jaro-s.p.dcdfa8d9.ttf",
+      "static/media/SpaceGrotesk-s.p.5364be1a.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

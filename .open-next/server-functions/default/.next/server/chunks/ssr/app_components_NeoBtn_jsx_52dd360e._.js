@@ -1,0 +1,3 @@
+module.exports=[70752,a=>{"use strict";a.s(["default",()=>e]);var b=a.i(87924),c=a.i(38246);a.i(72131),a.i(59406);var d=a.i(47192);let e=({href:a,text:e})=>(0,b.jsx)(c.default,{href:a,children:(0,b.jsx)("button",{className:"py-2 px-8 bg-primary rounded-md neobrutal rotate-5",children:(0,b.jsx)("h3",{className:`text-5xl ${d.jaro.className} relative max-md:text-2xl`,children:e})})})}];
+
+//# sourceMappingURL=app_components_NeoBtn_jsx_52dd360e._.js.map

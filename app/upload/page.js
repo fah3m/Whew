@@ -50,7 +50,10 @@ export default function Home() {
       );
 
       const data = await res.json();
-      if (!data.secure_url) throw new Error("Upload failed");
+      if (!data.secure_url)
+        throw new Error(
+          "Upload failed - Secure link could'nt be generated twin"
+        );
 
       await addSong({
         title,
@@ -131,7 +134,7 @@ export default function Home() {
           <label className="font-bold text-black">
             Upload MP3
             <input
-              key={fileKey} // <--- the trick
+              key={fileKey}
               type="file"
               accept=".mp3,audio/mpeg"
               onChange={(e) => {
