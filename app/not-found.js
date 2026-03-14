@@ -6,7 +6,7 @@ const NotFound = () => {
   return (
     <div className='w-screen flex justify-center min-h-[calc(70vh)] items-center pb-5 flex-col'>
          <Error404 />
-         <NeoBtn text={"MRS SHERPA?"} href={"/"} className="mb-10"></NeoBtn>
+         <NeoBtn text={"NashBot!"} href={"/"} className="mb-10"></NeoBtn>
     </div>
    
   )
